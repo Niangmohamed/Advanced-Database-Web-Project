@@ -1,0 +1,127 @@
+
+
+nav > div > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav > div > ul > li{
+	float:left;
+}
+nav li{
+	list-style-type: none;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+nav > div> ul > li{
+	float:left;
+	position:relative;
+}
+nav > div > ul::after{
+	 content: "";
+	 display: block;
+	 clear: both;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration:none;
+
+}
+
+nav > div >  ul > li > a{
+	padding: 20px 30px;
+    color:#FFF;
+}
+
+nav li:hover .submenu{
+	display:inline-block;
+	position: absolute;
+	top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+
+nav > div > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+} 
+
+ h1{
+ 	 font-size: 40px;
+ 	 font-weight: normal;
+ 	 text-align: center;
+ }
+ header{
+ 	height: 100px;
+ }
+ footer{
+ 	height: 80px;
+ 	padding-top: 30px;
+ 	text-align: center;
+ 	background-color: #C5C5C5;
+    border-top: 2px solid #AAA;
+ 	 }
+nav{
+	width: 100%;
+	background-color: #C0C0C0;
+
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+} 
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+nav > div  > ul  > li  > a{
+	padding: 20 px;
+	color: #FFF;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position:absolute;
+	top:100%;
+	left: 0px;
+	padding:0px;
+	z-index:100000;
+}
+
+.table{  
+
+	display: table;
+	margin: 0 auto;
+}
+
+.presentation{  
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav li:hover a{
+ padding: 15px 30px 20px 30px;
+}
+
+section{
+	width:100%;
+	min-height:300px;
+	padding-bottom:10px;
+	margin:bottom: 10px;
+}
+
+
