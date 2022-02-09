@@ -1,3 +1,3 @@
-# Advanced-Database-Web-Project
+# Advanced Database Web Project
 
-Locality management with website development framework.
+Locality management with website development frameworks.
